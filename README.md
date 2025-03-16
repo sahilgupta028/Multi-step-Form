@@ -55,6 +55,33 @@ npm run dev
 
 ---
 
+## Design Decisions
+
+1. **Component-Based Architecture**:
+
+   - The form is divided into separate components (Step1, Step2, Step3, MultiStepForm) for modularity and reusability.
+   - This makes it easy to maintain and extend by adding new steps if required.
+
+2. **TypeScript for Type Safety**:
+
+    - Strongly typed form data to prevent runtime errors and enhance developer experience.
+    - Ensures state and props are correctly used.
+
+3. **State Management with useState & useEffect**:
+
+    - Each step maintains its own form data while the MultiStepForm component holds the overall state.
+    - useEffect is used to persist data in localStorage for session continuity.
+
+4. **Validation for Better UX**:
+    - Real-time error messages help users fix mistakes before submitting the form.
+    - Regular expressions ensure email validity.
+
+5. **Responsive UI with Tailwind CSS**:
+    - Mobile-friendly design ensuring a smooth experience on all screen sizes.
+    - Accessible and visually appealing form elements.
+
+---
+
 ## Scalability & Production-Grade Enhancements
 
 1. **Moving to a Global State Management System**:
