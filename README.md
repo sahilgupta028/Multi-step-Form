@@ -55,23 +55,23 @@ npm run dev
 
 ## Scalability & Production-Grade Enhancements
 
-1. Moving to a Global State Management System
+1. **Moving to a Global State Management System**:
 
   - Using Redux Toolkit or Zustand for better scalability if more complex form flows are added.
   - Enables form data persistence across pages.
 
-2. API Integration for Backend Storage
+2. **API Integration for Backend Storage**:
 
-- Instead of using localStorage, integrate with a backend API (e.g., Firebase, Express.js, or GraphQL) to store form responses securely.
-- Allows multi-user support and centralized data management.
+   - Instead of using localStorage, integrate with a backend API (e.g., Firebase, Express.js, or GraphQL) to store form responses securely.
+   - Allows multi-user support and centralized data management.
 
-3. Form Schema Validation with Zod
+3. **Form Schema Validation with Zod**:
   - Using Zod with React Hook Form for cleaner validation logic.
   - Provides better performance compared to manual validation.
 
-4. Multi-Language Support
+4. **Multi-Language Support**:
    - Implement i18n (Internationalization) for multilingual support.
 
-5. Unit & Integration Testing
-- Add Jest & React Testing Library to ensure form reliability in production.
-- Write tests for navigation, validation, and submission flow.
+5. **Unit & Integration Testing**:
+   - Add Jest & React Testing Library to ensure form reliability in production
+   - Write tests for navigation, validation, and submission flow.
