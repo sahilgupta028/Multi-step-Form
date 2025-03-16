@@ -66,12 +66,15 @@ npm run dev
    - Allows multi-user support and centralized data management.
 
 3. **Form Schema Validation with Zod**:
+
   - Using Zod with React Hook Form for cleaner validation logic.
   - Provides better performance compared to manual validation.
 
 4. **Multi-Language Support**:
+
    - Implement i18n (Internationalization) for multilingual support.
 
 5. **Unit & Integration Testing**:
+
    - Add Jest & React Testing Library to ensure form reliability in production
    - Write tests for navigation, validation, and submission flow.
