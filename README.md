@@ -23,6 +23,8 @@ A **multi-step form** built using **Next.js** and **TypeScript**, featuring vali
 4. **Responsiveness**:
    - Fully responsive design that adapts to different screen sizes
 
+---
+
 ## Technologies Used
   - Next.js for frontend framework
   - TypeScript for type safety
