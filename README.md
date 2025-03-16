@@ -57,8 +57,8 @@ npm run dev
 
 1. **Moving to a Global State Management System**:
 
-  - Using Redux Toolkit or Zustand for better scalability if more complex form flows are added.
-  - Enables form data persistence across pages.
+   - Using Redux Toolkit or Zustand for better scalability if more complex form flows are added.
+   - Enables form data persistence across pages.
 
 2. **API Integration for Backend Storage**:
 
@@ -67,8 +67,8 @@ npm run dev
 
 3. **Form Schema Validation with Zod**:
 
-  - Using Zod with React Hook Form for cleaner validation logic.
-  - Provides better performance compared to manual validation.
+   - Using Zod with React Hook Form for cleaner validation logic.
+   - Provides better performance compared to manual validation.
 
 4. **Multi-Language Support**:
 
